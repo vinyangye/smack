@@ -310,10 +310,31 @@
                             <constraint firstItem="zUb-2k-pez" firstAttribute="top" secondItem="V6R-0Y-fVJ" secondAttribute="bottom" constant="8" id="ues-1S-hEf"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <segue destination="pNs-bI-OYW" kind="show" identifier="toCreateAccount" id="6QV-Sv-CWn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uZq-Qw-bMM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2114.4000000000001" y="-303.59820089955025"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="D1d-Hr-qCs">
+            <objects>
+                <viewController id="pNs-bI-OYW" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UqS-1O-TwD"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ybl-XO-7Um"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DOR-CK-vw9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zUg-f5-qLU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2897" y="-304"/>
         </scene>
     </scenes>
     <resources>
