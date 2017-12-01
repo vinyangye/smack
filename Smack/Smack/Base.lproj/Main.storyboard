@@ -481,10 +481,10 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="emailTxt" destination="fmt-Mi-Nns" id="xtk-eR-7VO"/>
-                        <outlet property="passTxt" destination="52g-ou-Uue" id="Qe9-Xj-Nhl"/>
+                        <outlet property="emailTxt" destination="fmt-Mi-Nns" id="Tgw-Ns-9Ox"/>
+                        <outlet property="passTxt" destination="52g-ou-Uue" id="tjA-ie-Hto"/>
                         <outlet property="userImg" destination="YmW-ZM-nzD" id="N9Z-dW-N6y"/>
-                        <outlet property="usernameTxt" destination="vg6-tm-IUM" id="3AQ-lN-XGV"/>
+                        <outlet property="usernameTxt" destination="vg6-tm-IUM" id="3Hv-Zh-y40"/>
                         <segue destination="gGa-MX-W2R" kind="unwind" identifier="unwindToChannel" unwindAction="prepareForUnwindWithSegue:" id="xqi-Td-mT6"/>
                     </connections>
                 </viewController>
